@@ -3,5 +3,5 @@ services:
     image: ghcr.io/muratcihanyandi/dugunekalanzaman:latest
     container_name: dugun-sayac
     ports:
-      - "33465:80"
+      - "33465:33465"
     restart: unless-stopped
