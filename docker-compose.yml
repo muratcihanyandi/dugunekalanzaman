@@ -1,9 +1,7 @@
 services:
-  wedding:
-    image: nginx:alpine
-    container_name: dugun-davetiye
+  sayac:
+    image: ghcr.io/muratcihanyandi/dugunekalanzaman:latest
+    container_name: dugun-sayac
     ports:
-      - "8090:80"
-    volumes:
-      - ./site:/usr/share/nginx/html:ro
+      - "33465:80"
     restart: unless-stopped

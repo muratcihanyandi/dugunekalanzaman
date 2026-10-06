@@ -1,7 +1,0 @@
-# Linux/Pi dagitimi icin satir sonlarini LF'de sabitle
-* text=auto eol=lf
-
-*.woff2 binary
-*.png binary
-*.jpg binary
-*.ico binary
